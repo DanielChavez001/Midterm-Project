@@ -28,7 +28,7 @@ weather.temperature = {
     unit : "celsius"
 }
 // fetch and api key
-const key = "0c78fdcabc05dc34ed0b9236df299b71";
+const key = "";
 function getWeather(latitude, longitude){
     let api = `http://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${key}`;
     
